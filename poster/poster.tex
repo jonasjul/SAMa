@@ -1,0 +1,114 @@
+%\documentclass[]{beamer}
+%\usepackage[norsk]{babel}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{minted, enumerate}
+%\usepackage[colorlinks = true,
+%linkcolor = blue,
+%urlcolor = blue]{hyperref}
+\documentclass[]{beamer}
+\usepackage[size=a3, orientation=portrait, scale=1.1]{beamerposter}
+\usepackage[norsk]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,epstopdf,tikz}
+\usepackage{gauss,amsmath}
+\usepackage{siunitx, enumerate}
+\usepackage{lipsum}
+\usepackage{animate}
+\usetheme[slogan=norsk,style=horizontal, mathfont=serif]{NTNU}
+
+\definecolor{NTNUblue}{HTML}{00509e}
+\definecolor{NTNUlightblue}{HTML}{6096d0}
+\definecolor{NTNUorange}{HTML}{ef8114}
+\definecolor{NTNUbrown}{HTML}{cfb887}
+\definecolor{NTNUred}{HTML}{b01b81}
+\definecolor{NTNUgrey}{HTML}{bebebe}
+\definecolor{NTNUcyan}{HTML}{3cbfbe}
+\definecolor{NTNUviolet}{HTML}{482776}
+
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{bibtex.bib}
+
+\begin{document}
+\begin{frame}[t]
+   \begin{center}
+      \huge \textbf{\color{NTNUorange}{Shader-Kunst} \color{NTNUgrey}og programmering som verktøy for matematisk læring}\color{black}
+      \vspace{1cm}
+      \Large \color{NTNUred} \\Beklager \textbf{meget} kladdaktig poster  - ferdig versjon sendes før samlingen\color{black}
+      \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+   \end{center}
+
+   \begin{columns}
+      
+      \begin{column}{0.33\textwidth}
+         \begin{block}{Matematikk og programmering i LK20}
+            I LK20 fikk programmering og «algoritmisk tankegang» mye større plass.
+            Spesielt matematikkfaget fikk inn nye læringsmål rundt numeriske metoder og programmering.
+            Også på ingeniørstudiene ved NTNU kommer programmering inn i matematikkfagene, og det er blant kollegaer blitt interessant å
+            spørre seg på hvilken måte programmering kan \textit{hjelpe til} på matematikkforståelsen. Vi har blant annet
+            en forskningsgruppe sammen med høyskolen i Volda (\href{https://www.hivolda.no/forsking-og-utvikling-0/forsking-ved-hvo/forskingsgrupper/pedagogikk-og-didaktikk/programmering-matematikkforstaelse}{lenke her}), og
+            et Erasmus+ prosjekt på gang hvor man undersøker hvordan programmering kan styrke matematikkforståelsen.
+         \end{block}
+         \begin{block}{Shader kunst og estetikk}
+            På ingeniøremnene handler det å ta programmering inn i matematikken, ofte om å lære numeriske metoder og bruke
+            programmering til å løse faglig relevante beregningsproblemer.
+
+            Jeg tror det kan være interessant å undersøke om \textit{shader kunst} kan brukes som verktøy for å undervise både matematikk og programmering.
+
+            En \textit{shader} er et program som kjøres på grafikkmaskinvare, og skiller seg fra et vanlig dataprogram ved at det kjøres parallelt. Det kan feks kjøres samtidig for allet pikslene i et vindu, for alle trekanter i et 3D-objekt.
+            Shaderkunst handler om å skrive slike shadere å lage grafikkunst. Se feks linken i figuren under.
+            %I stor grad undervises samme matematikk til ingeniører fra flere studieprogram, slik at det ikke nødvendigvis er trivielt å gi numeriske problemstillinger som er relevant for alle studenter som tar emnet.
+            
+         \end{block}
+         \begin{figure}[ht]
+            \centering
+            \animategraphics[autoplay, loop, width=\textwidth]{30}{images/shadertoyframes/shadertoy}{1}{113}
+            \caption{Shadertoy eksempel, se animasjon \href{https://www.shadertoy.com/}{shadertoy.com}}
+            \label{shadertoy}
+         \end{figure}
+      \end{column}
+      
+      \begin{column}{0.33\textwidth}
+         \begin{block}{Muligheter}
+            Når man skal lage noe slikt som shadertoy-eksempel, behøves en del programmeringsferdigheter, men også matematisk forståelse.
+            Alt man vil vise må man beskrive matematisk eller algoritmisk, og man kan ta utgangspunkt i dette 
+            for å undersøke lineær algebra, funksjoner, differensiallikninger, fraktaler og sikkert voldsomt mye mer.
+            
+            \color{NTNUgrey}\lipsum[1]bla bla \autocite{gascoigne2014tacit}
+         \end{block}
+         \begin{block}{Begrensninger}
+            Det er plagsomt mye kode i rammeverket lenge før vist noe på skjermen, og koden kan avhenge mye av hvilken platform man bruker (windows, mac, linux, opengl, direct3d osv).
+            Det gjør at programmeringsbiten fort kan komme i veien for matematikken, som er det jeg vil komme til å undervise.
+            
+            \color{NTNUgrey}\lipsum[1]
+            \lipsum[1]bla bla \autocite{gascoigne2014tacit}
+         \end{block}
+      \end{column}
+      
+      \begin{column}{0.33\textwidth}
+         \begin{block}{Problemstillinger}
+            Jeg ønsker å undersøke hvilken betydning det har at man velger å skape noe estetisk som shader-kunst, i stedet for å angripe et faglig relevant men særs konkret beregningsproblem.
+            Hvilke fordeler og ulemper har det?
+
+            Videre ønsker jeg å lage et undervisningsopplegg i matematiske metoder 3 for dataingeniører hvor vi undersøker differnsiallikninger, og løsningsmetoder for de, ved å lage litt shader-kunst.
+            
+            5. semester dataingeniørstudenter tåler en del kode i rammeverket rundt og i selve shader-kodingen. Jeg ønsker også å se hvilke muligheter det er for å bruke
+            dette i matematikkundervisning for de som ikke går et ingeniørstudie innen data. Finnes det muligheter for å kode shaderkunst og undersøke matematikk uten å dykke dypt i rammeverket rundt?
+         \end{block}
+         \begin{block}{Utviklingsarbeid}
+            
+            Se forrige blokk
+            \color{NTNUgrey}
+            \lipsum[2]
+         \end{block}
+
+         \begin{block}{Bibliografi}
+            \printbibliography[heading=none]
+         \end{block}
+      \end{column}
+      
+   \end{columns}
+\end{frame}
+
+\end{document}
