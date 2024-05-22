@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/jonas/fag/uniped/SAMa/lorentzart/build",
+  "command": "/usr/bin/c++  -I/home/jonas/fag/uniped/SAMa/lorentzart/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/glad/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/stb/include -isystem /usr/include/SDL2  -o CMakeFiles/ShaderToyExample.dir/src/BufferObjects.cpp.o -c /home/jonas/fag/uniped/SAMa/lorentzart/src/BufferObjects.cpp",
+  "file": "/home/jonas/fag/uniped/SAMa/lorentzart/src/BufferObjects.cpp",
+  "output": "CMakeFiles/ShaderToyExample.dir/src/BufferObjects.cpp.o"
+},
+{
+  "directory": "/home/jonas/fag/uniped/SAMa/lorentzart/build",
+  "command": "/usr/bin/c++  -I/home/jonas/fag/uniped/SAMa/lorentzart/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/glad/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/stb/include -isystem /usr/include/SDL2  -o CMakeFiles/ShaderToyExample.dir/src/Shaders.cpp.o -c /home/jonas/fag/uniped/SAMa/lorentzart/src/Shaders.cpp",
+  "file": "/home/jonas/fag/uniped/SAMa/lorentzart/src/Shaders.cpp",
+  "output": "CMakeFiles/ShaderToyExample.dir/src/Shaders.cpp.o"
+},
+{
+  "directory": "/home/jonas/fag/uniped/SAMa/lorentzart/build",
+  "command": "/usr/bin/c++  -I/home/jonas/fag/uniped/SAMa/lorentzart/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/glad/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/stb/include -isystem /usr/include/SDL2  -o CMakeFiles/ShaderToyExample.dir/src/game_object.cpp.o -c /home/jonas/fag/uniped/SAMa/lorentzart/src/game_object.cpp",
+  "file": "/home/jonas/fag/uniped/SAMa/lorentzart/src/game_object.cpp",
+  "output": "CMakeFiles/ShaderToyExample.dir/src/game_object.cpp.o"
+},
+{
+  "directory": "/home/jonas/fag/uniped/SAMa/lorentzart/build",
+  "command": "/usr/bin/c++  -I/home/jonas/fag/uniped/SAMa/lorentzart/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/glad/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/stb/include -isystem /usr/include/SDL2  -o CMakeFiles/ShaderToyExample.dir/src/main2.cpp.o -c /home/jonas/fag/uniped/SAMa/lorentzart/src/main2.cpp",
+  "file": "/home/jonas/fag/uniped/SAMa/lorentzart/src/main2.cpp",
+  "output": "CMakeFiles/ShaderToyExample.dir/src/main2.cpp.o"
+},
+{
+  "directory": "/home/jonas/fag/uniped/SAMa/lorentzart/build",
+  "command": "/usr/bin/cc  -I/home/jonas/fag/uniped/SAMa/lorentzart/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/glad/include -I/home/jonas/fag/uniped/SAMa/lorentzart/extern/stb/include -isystem /usr/include/SDL2  -o CMakeFiles/ShaderToyExample.dir/extern/glad/src/glad.c.o -c /home/jonas/fag/uniped/SAMa/lorentzart/extern/glad/src/glad.c",
+  "file": "/home/jonas/fag/uniped/SAMa/lorentzart/extern/glad/src/glad.c",
+  "output": "CMakeFiles/ShaderToyExample.dir/extern/glad/src/glad.c.o"
+}
+]

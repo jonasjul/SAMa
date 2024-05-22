@@ -1,0 +1,3 @@
+/home/jonas/fag/uniped/SAMa/lorentzart/build/CMakeFiles/ShaderToyExample.dir
+/home/jonas/fag/uniped/SAMa/lorentzart/build/CMakeFiles/edit_cache.dir
+/home/jonas/fag/uniped/SAMa/lorentzart/build/CMakeFiles/rebuild_cache.dir
